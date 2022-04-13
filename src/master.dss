@@ -1,0 +1,47 @@
+Clear
+
+New Object=Circuit.TNB_DUMA BasekV=33 pu=1.0 Angle=0 phases=3 bus1=PPU_DUMA_33kV BaseFreq=50
+
+! ATTACHING transformer and lines files
+
+Redirect transformer.dss
+Redirect lines.dss
+
+// Redirect tx_sectionalized.dss
+// Redirect lines_sectionalized.dss
+
+// Redirect tx_contingency.dss
+
+// ! ATTACHING loads files
+
+// Redirect no_load.dss
+Redirect peak_loads.dss
+
+! PV System Integration
+
+// Redirect pv0pc.dss
+// Redirect pv20pc.dss 
+// Redirect pv40pc.dss
+// Redirect pv60pc.dss
+// Redirect pv80pc.dss
+Redirect pv100pc.dss
+
+// Redirect pvtestpc.dss
+
+
+// Redirect pv0MW.dss ! No PV Penetration
+// Redirect pv1MW.dss ! 20% PV Penetration
+// Redirect pv2MW.dss ! 40% PV Penetration
+// Redirect pv3MW.dss ! 60% PV Penetration
+// Redirect pv4MW.dss ! 80% PV Penetration
+// Redirect pv5MW.dss ! 100% PV Penetration        
+
+// Set Voltagebases=[33 11.3]
+// Set DefaultBaseFrequency=50
+
+// Set controlmode=static
+// Set mode=snapshot
+// Set maxiterations=200
+
+// calcVoltagebases
+// solve
