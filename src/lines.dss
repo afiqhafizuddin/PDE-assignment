@@ -22,6 +22,9 @@ New Object=Line.LINE7 bus1=PMU_PULMAN_33KV_B bus2=PCC_PV_PMU33KV Linecode=33KVXL
 
 
 // 132/11kV Network
+// TX 1 CB31
+New Object=Line.LINE8 bus1=PPU1_PULMAN_11KV_A bus2=LT_PPU11KV Linecode=11KVXLPE85 Length=0.05 Units=km
+
 
 
 
