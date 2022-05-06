@@ -1,0 +1,82 @@
+// 132/33 Network
+
+New Load.LOAD1 bus1=LT_PMU33KV phases=3 kV=33 kW=51 kvar=25 PF=0.89
+New Load.LOAD2 bus1=TOURIST phases=3 kV=33 kW=1373 kvar=686 PF=0.89
+New Load.LOAD3 bus1=MALLS phases=3 kV=33 kW=1373 kvar=686 PF=0.89
+New Load.LOAD4 bus1=MAIN_HOSPITAL phases=3 kV=33 kW=1890 kvar=1481 PF=0.89
+New Load.LOAD5 bus1=PCC_PV_PMU33KV phases=3 kV=33 kW=580 kvar=290 PF=0.89
+
+// 132/11 Network
+
+// CB31
+New Load.LOAD6 bus1=LT_PPU11KV phases=3 kV=11 kW=51 kvar=25 PF=0.89
+
+// CB32
+New Load.LOAD7 bus1=JLNDS phases=3 kV=11 kW=170 kvar=85 PF=0.89
+New Load.LOAD8 bus1=JLNDSMTRA phases=3 kV=11 kW=170 kvar=85 PF=0.89
+New Load.LOAD9 bus1=KDAIJLNLMA phases=3 kV=11 kW=170 kvar=85 PF=0.89
+New Load.LOAD10 bus1=SMKCMRLG phases=3 kV=11 kW=880 kvar=440 PF=0.89
+
+// CB33
+New Load.LOAD11 bus1=JLNKG phases=3 kV=11 kW=732 kvar=366 PF=0.89
+New Load.LOAD12 bus1=JLNANGRK phases=3 kV=11 kW=732 kvar=366 PF=0.89
+New Load.LOAD13 bus1=DWNCMPK phases=3 kV=11 kW=732 kvar=366 PF=0.89
+New Load.LOAD14 bus1=MSJIDRHMN phases=3 kV=11 kW=732 kvar=366 PF=0.89
+
+// CB34
+New Load.LOAD15 bus1=RSRTYLT phases=3 kV=11 kW=647 kvar=324 PF=0.89
+New Load.LOAD16 bus1=RSRT1 phases=3 kV=11 kW=255 kvar=128 PF=0.89
+New Load.LOAD17 bus1=SKJLNKG phases=3 kV=11 kW=1265 kvar=633 PF=0.89
+
+// CB35
+New Load.LOAD18 bus1=SMKJLNKG phases=3 kV=11 kW=1265 kvar=633 PF=0.89
+New Load.LOAD19 bus1=RSRTPYA phases=3 kV=11 kW=718 kvar=359 PF=0.89
+
+// CB36
+New Load.LOAD20 bus1=MSJDIKRM phases=3 kV=11 kW=1110 kvar=555 PF=0.89
+
+// CB37
+New Load.LOAD21 bus1=JLNSR phases=3 kV=11 kW=472 kvar=236 PF=0.89
+New Load.LOAD22 bus1=JLNKSH phases=3 kV=11 kW=472 kvar=236 PF=0.89
+New Load.LOAD23 bus1=JLNPRMNT phases=3 kV=11 kW=116 kvar=58 PF=0.89
+New Load.LOAD24 bus1=DWNJY phases=3 kV=11 kW=472 kvar=236 PF=0.89
+
+// CB38
+New Load.LOAD25 bus1=PCC_PV_PPU11KV phases=3 kV=11 kW=580 kvar=290 PF=0.89
+
+// 33/11 Network
+// CB31
+New Load.LOAD26 bus1=LT_PPU33KV phases=3 kV=11 kW=51 kvar=25 PF=0.89
+
+// CB32
+New Load.LOAD27 bus1=RSRTBNTG phases=3 kV=11 kW=435 kvar=217 PF=0.89
+New Load.LOAD28 bus1=RSTRT2 phases=3 kV=11 kW=51 kvar=25 PF=0.89
+
+// CB33
+New Load.LOAD29 bus1=JLNJR phases=3 kV=11 kW=389 kvar=195 PF=0.89
+New Load.LOAD30 bus1=JLNJY phases=3 kV=11 kW=389 kvar=195 PF=0.89
+New Load.LOAD31 bus1=CHLTJLNPRM phases=3 kV=11 kW=389 kvar=195 PF=0.89
+New Load.LOAD32 bus1=CHLTSLS phases=3 kV=11 kW=292 kvar=146 PF=0.89
+New Load.LOAD33 bus1=SHP phases=3 kV=11 kW=567 kvar=283 PF=0.89
+
+// CB34
+New Load.LOAD34 bus1=JLNKS phases=3 kV=11 kW=834 kvar=417 PF=0.89
+New Load.LOAD35 bus1=RSRTBRJYT phases=3 kV=11 kW=834 kvar=417 PF=0.89
+New Load.LOAD36 bus1=SKKS phases=3 kV=11 kW=834 kvar=417 PF=0.89
+
+// CB35
+New Load.LOAD37 bus1=RSRTJLNSR phases=3 kV=11 kW=1373 kvar=686 PF=0.89
+New Load.LOAD38 bus1=DWNSR phases=3 kV=11 kW=306 kvar=153 PF=0.89
+New Load.LOAD39 bus1=RLGSST phases=3 kV=11 kW=323 kvar=162 PF=0.89
+
+// CB36
+New Load.LOAD40 bus1=SHP2 phases=3 kV=11 kW=148 kvar=72 PF=0.89
+
+// CB37
+New Load.LOAD41 bus1=JLNBY phases=3 kV=11 kW=580 kvar=290 PF=0.89
+New Load.LOAD42 bus1=RSRTRT3 phases=3 kV=11 kW=580 kvar=290 PF=0.89
+New Load.LOAD43 bus1=CHLTJLNBY phases=3 kV=11 kW=580 kvar=290 PF=0.89
+
+// CB38
+New Load.LOAD44 bus1=JLNKG phases=3 kV=11 kW=358 kvar=179 PF=0.89
+New Load.LOAD45 bus1=CHLTJLNKG phases=3 kV=11 kW=358 kvar=179 PF=0.89

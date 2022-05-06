@@ -28,72 +28,73 @@ New Object=Line.LINE8 bus1=PPU1_PULMAN_11KV_A bus2=LT_PPU11KV Linecode=11KVXLPE8
 // CB32
 New Object=Line.LINE9 bus1=PPU1_PULMAN_11KV_B bus2=JLNDS Linecode=11KVXLPE150 Length=2 Units=km
 New Object=Line.LINE10 bus1=JLNDS bus2=JLNDSMTRA Linecode=11KVXLPE240 Length=2.1 Units=km
-New Object=Line.LINE11 bus1=KDAIJLNLMA bus2=SMKCMRLG Linecode=11KVXLPE150 Length=2.67 Units=km
+New Object=Line.LINE11 bus1=JLNDSMTRA bus2=KDAIJLNLMA Linecode=11KVXLPE240 Length=2.8 Units=km
+New Object=Line.LINE12 bus1=KDAIJLNLMA bus2=SMKCMRLG Linecode=11KVXLPE150 Length=2.67 Units=km
 
 // CB33
-New Object=Line.LINE12 bus1=PPU1_PULMAN_11KV_A bus2=JLNKNG Linecode=11KVXLPE150 Length=7 Units=km
-New Object=Line.LINE13 bus1=JLNKNG bus2=JLNANGRK Linecode=11KVXLPE150 Length=2 Units=km
-New Object=Line.LINE14 bus1=JLNANGRK bus2=DWNCMPK Linecode=11KVXLPE150 Length=2 Units=km
-New Object=Line.LINE15 bus1=DWNCMPK bus2=MSJIDRHMN Linecode=11KVXLPE240 Length=3 Units=km
+New Object=Line.LINE13 bus1=PPU1_PULMAN_11KV_A bus2=JLNKNG Linecode=11KVXLPE150 Length=7 Units=km
+New Object=Line.LINE14 bus1=JLNKNG bus2=JLNANGRK Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE15 bus1=JLNANGRK bus2=DWNCMPK Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE16 bus1=DWNCMPK bus2=MSJIDRHMN Linecode=11KVXLPE240 Length=3 Units=km
 
 // CB34
-New Object=Line.LINE16 bus1=PPU1_PULMAN_11KV_B bus2=SKJLNKG Linecode=11KVXLPE240 Length=2 Units=km
-New Object=Line.LINE17 bus1=SKNJLKG bus2=SMKJLNKG Linecode=11KVXLPE240 Length=1 Units=km
-New Object=Line.LINE18 bus1=SMKJLNKG bus2=RSRTPYA Linecode=11KVXLPE240 Length=1 Units=km
+New Object=Line.LINE17 bus1=PPU1_PULMAN_11KV_B bus2=SKJLNKG Linecode=11KVXLPE240 Length=2 Units=km
+New Object=Line.LINE18 bus1=SKNJLKG bus2=SMKJLNKG Linecode=11KVXLPE240 Length=1 Units=km
+New Object=Line.LINE19 bus1=SMKJLNKG bus2=RSRTPYA Linecode=11KVXLPE240 Length=1 Units=km
 
 // CB35 
-New Object=Line.LINE19 bus1=PPU1_PULMAN_11KV_A bus2=RSRTYLT Linecode=11KVXLPE240 Length=1 Units=km
-New Object=Line.LINE20 bus1=RSRTBYLT bus2=RSRT1 Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE20 bus1=PPU1_PULMAN_11KV_A bus2=RSRTYLT Linecode=11KVXLPE240 Length=1 Units=km
+New Object=Line.LINE21 bus1=RSRTBYLT bus2=RSRT1 Linecode=11KVXLPE150 Length=2 Units=km
 
 // CB36 
-New Object=Line.LINE21 bus1=PPU1_PULMAN_11KV_B bus2=PCC_PV_PPU11KV Linecode=11KVXLPE150 Length=1 Units=km
+New Object=Line.LINE22 bus1=PPU1_PULMAN_11KV_B bus2=PCC_PV_PPU11KV Linecode=11KVXLPE150 Length=1 Units=km
 
 // CB37
-New Object=Line.LINE22 bus1=PPU1_PULMAN_11KV_A bus2=MSJDIKRM Linecode=11KVXLPE240 Length=6 Units=km
-New Object=Line.LINE23 bus1=MSJDIKRM bus2=JLNSR Linecode=11KVXLPE240 Length=2 Units=km
-New Object=Line.LINE24 bus1=JLNSR bus2=JLNKSH Linecode=11KVXLPE150 Length=4 Units=km
-New Object=Line.LINE25 bus1=JLNKSH bus2=JLNPRMNT Linecode=11KVXLPE150 Length=1 Units=km
-New Object=Line.LINE26 bus1=JLNPRMNT bus2=DWNJY Linecode=11KVXLPE240 Length=1 Units=km
+New Object=Line.LINE23 bus1=PPU1_PULMAN_11KV_A bus2=MSJDIKRM Linecode=11KVXLPE240 Length=6 Units=km
+New Object=Line.LINE24 bus1=MSJDIKRM bus2=JLNSR Linecode=11KVXLPE240 Length=2 Units=km
+New Object=Line.LINE25 bus1=JLNSR bus2=JLNKSH Linecode=11KVXLPE150 Length=4 Units=km
+New Object=Line.LINE26 bus1=JLNKSH bus2=JLNPRMNT Linecode=11KVXLPE150 Length=1 Units=km
+New Object=Line.LINE27 bus1=JLNPRMNT bus2=DWNJY Linecode=11KVXLPE240 Length=1 Units=km
 
 // CB38
-New Object=Line.LINE27 bus1=PPU1_PULMAN_11KV_B bus2=PPU2_PULMAN_11KV_B Linecode=11KVXLPE150 Length=15 Units=km
+New Object=Line.LINE28 bus1=PPU1_PULMAN_11KV_B bus2=PPU2_PULMAN_11KV_B Linecode=11KVXLPE150 Length=15 Units=km
 
 // 33/11kV Network
 // CB31
-New Object=Line.LINE28 bus1=PPU2_PULMAN_11KV_A bus2=LT_PPU33KV Linecode=11KVXLPE85 Length=0.05  Units=km
+New Object=Line.LINE29 bus1=PPU2_PULMAN_11KV_A bus2=LT_PPU33KV Linecode=11KVXLPE85 Length=0.05  Units=km
 
 // CB32
-New Object=Line.LINE29 bus1=PPU2_PULMAN_11KV_B bus2=RSRTBNTG Linecode=11KVXLPE150 Length=7 Units=km
-New Object=Line.LINE30 bus1=RSRTBNTG bus2=RSTRT2 Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE30 bus1=PPU2_PULMAN_11KV_B bus2=RSRTBNTG Linecode=11KVXLPE150 Length=7 Units=km
+New Object=Line.LINE31 bus1=RSRTBNTG bus2=RSTRT2 Linecode=11KVXLPE150 Length=2 Units=km
 
 // CB33
-New Object=Line.LINE31 bus1=PPU2_PULMAN_11KV_A bus2=JLNJR Linecode=11KVXLPE150 Length=2 Units=km
-New Object=Line.LINE32 bus1=JLNJR bus2=JLNJY Linecode=11KVXLPE240 Length=3 Units=km
-New Object=Line.LINE33 bus1=JLNJY bus2=CHLTJLNPRM Linecode=11KVXLPE240 Length=2 Units=km
-New Object=Line.LINE34 bus1=CHLTJLNPRM bus2=CHLTSLS Linecode=11KVXLPE150 Length=2 Units=km
-New Object=Line.LINE35 bus1=CHLTSLS bus2=SHP Linecode=11KVXLPE240 Length=6 Units=km
+New Object=Line.LINE32 bus1=PPU2_PULMAN_11KV_A bus2=JLNJR Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE33 bus1=JLNJR bus2=JLNJY Linecode=11KVXLPE240 Length=3 Units=km
+New Object=Line.LINE34 bus1=JLNJY bus2=CHLTJLNPRM Linecode=11KVXLPE240 Length=2 Units=km
+New Object=Line.LINE35 bus1=CHLTJLNPRM bus2=CHLTSLS Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE36 bus1=CHLTSLS bus2=SHP Linecode=11KVXLPE240 Length=6 Units=km
 
 // CB34
-New Object=Line.LINE36 bus1=PPU2_PULMAN_11KV_B bus2=JLNKS Linecode=11KVXLPE240 Length=2 Units=km
-New Object=Line.LINE37 bus1=JLNKS bus2=RSRTBRJYT Linecode=11KVXLPE150 Length=4 Units=km
-New Object=Line.LINE38 bus1=RSRTBRJYT bus2=SKKS Linecode=11KVXLPE240 Length=4   Units=km
+New Object=Line.LINE37 bus1=PPU2_PULMAN_11KV_B bus2=JLNKS Linecode=11KVXLPE240 Length=2 Units=km
+New Object=Line.LINE38 bus1=JLNKS bus2=RSRTBRJYT Linecode=11KVXLPE150 Length=4 Units=km
+New Object=Line.LINE39 bus1=RSRTBRJYT bus2=SKKS Linecode=11KVXLPE240 Length=4   Units=km
 
 // CB35
-New Object=Line.LINE39 bus1=PPU2_PULMAN_11KV_A bus2=RSRTJLNSR Linecode=11KVXLPE150 Length=2 Units=km
-New Object=Line.LINE40 bus1=RARTJLNAT bus2=DWNSR Linecode=11KVXLPE240 Length=2.1 Units=km
-New Object=Line.LINE41 bus1=DWNSR bus2=RLGSST Linecode=11KVXLPE150 Length=2.67 Units=km
+New Object=Line.LINE40 bus1=PPU2_PULMAN_11KV_A bus2=RSRTJLNSR Linecode=11KVXLPE150 Length=2 Units=km
+New Object=Line.LINE41 bus1=RARTJLNAT bus2=DWNSR Linecode=11KVXLPE240 Length=2.1 Units=km
+New Object=Line.LINE42 bus1=DWNSR bus2=RLGSST Linecode=11KVXLPE150 Length=2.67 Units=km
 
 // CB36
-New Object=Line.LINE42 bus1=PPU2_PULMAN-11KV_B bus2=SHP2 Linecode=11KVXLPE240 Length=2 Units=km
+New Object=Line.LINE43 bus1=PPU2_PULMAN-11KV_B bus2=SHP2 Linecode=11KVXLPE240 Length=2 Units=km
 
 // CB37 
-New Object=Line.LINE43 bus1=PPU2_PULMAN_11KV_A bus2=JLNBY Linecode=11KVXLPE150 Length=1 Units=km
-New Object=Line.LINE44 bus1=JLNBY bus2=RSRTRT3 Linecode=11KVXLPE150 Length=1 Units=km
-New Object=Line.LINE45 bus1=RSRTRT3 bus2=CHLTJLNBY Linecode=11KVXLPE150 Length=1 Units=km
+New Object=Line.LINE44 bus1=PPU2_PULMAN_11KV_A bus2=JLNBY Linecode=11KVXLPE150 Length=1 Units=km
+New Object=Line.LINE45 bus1=JLNBY bus2=RSRTRT3 Linecode=11KVXLPE150 Length=1 Units=km
+New Object=Line.LINE46 bus1=RSRTRT3 bus2=CHLTJLNBY Linecode=11KVXLPE150 Length=1 Units=km
 
 // CB38
-New Object=Line.LINE46 bus1=PPU2_PULMAN_11KV_B bus2=JLNKG Linecode=11KVXLPE150 Length=6 Units=km
-New Object=Line.LINE47 bus1=JLNKG bus2=CHLTJLNKG Linecode=11KVXLPE240 Length=2 Units=km
+New Object=Line.LINE47 bus1=PPU2_PULMAN_11KV_B bus2=JLNKG Linecode=11KVXLPE150 Length=6 Units=km
+New Object=Line.LINE48 bus1=JLNKG bus2=CHLTJLNKG Linecode=11KVXLPE240 Length=2 Units=km
 
 
 

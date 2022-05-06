@@ -1,0 +1,7 @@
+// PV DEFINTIONS
+New XYCurve.MyPVSyst npts=4 xarray=[0 25 50 75 100] yarray=[1.2 1.0 0.8 0.6]
+New XYCurve.MyEff npts=4 xarray=[0.1 0.2 0.4 1.0] yarray=[0.86 0.9 0.93 0.97]
+
+// Solar PV Integration
+New PVSystem.pv1 bus1=PCC_PV_PMU33KV phases=3 kV=11 kVA=250  Pmpp=250 irrad=1 PF=1
+New PVSystem.pv2 bus1=PCC_PV_PPU11KV phases=3 kV=11 kVA=50  Pmpp=50 irrad=1 PF=1
