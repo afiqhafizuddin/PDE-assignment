@@ -39,11 +39,11 @@ New Object=Line.LINE16 bus1=DWNCMPK bus2=MSJIDRHMN Linecode=11KVXLPE240 Length=3
 
 // CB34
 New Object=Line.LINE17 bus1=PPU1_PULMAN_11KV_B bus2=SKJLNKG Linecode=11KVXLPE240 Length=2 Units=km
-New Object=Line.LINE18 bus1=SKNJLKG bus2=SMKJLNKG Linecode=11KVXLPE240 Length=1 Units=km
+New Object=Line.LINE18 bus1=SKJLNKG bus2=SMKJLNKG Linecode=11KVXLPE240 Length=1 Units=km
 New Object=Line.LINE19 bus1=SMKJLNKG bus2=RSRTPYA Linecode=11KVXLPE240 Length=1 Units=km
 
 // CB35 
-New Object=Line.LINE20 bus1=PPU1_PULMAN_11KV_A bus2=RSRTYLT Linecode=11KVXLPE240 Length=1 Units=km
+New Object=Line.LINE20 bus1=PPU1_PULMAN_11KV_A bus2=RSRTBYLT Linecode=11KVXLPE240 Length=1 Units=km
 New Object=Line.LINE21 bus1=RSRTBYLT bus2=RSRT1 Linecode=11KVXLPE150 Length=2 Units=km
 
 // CB36 

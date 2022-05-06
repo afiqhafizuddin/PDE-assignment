@@ -24,7 +24,7 @@ New Load.LOAD13 bus1=DWNCMPK phases=3 kV=11 kW=732 kvar=366 PF=0.89
 New Load.LOAD14 bus1=MSJIDRHMN phases=3 kV=11 kW=732 kvar=366 PF=0.89
 
 // CB34
-New Load.LOAD15 bus1=RSRTYLT phases=3 kV=11 kW=647 kvar=324 PF=0.89
+New Load.LOAD15 bus1=RSRTBYLT phases=3 kV=11 kW=647 kvar=324 PF=0.89
 New Load.LOAD16 bus1=RSRT1 phases=3 kV=11 kW=255 kvar=128 PF=0.89
 New Load.LOAD17 bus1=SKJLNKG phases=3 kV=11 kW=1265 kvar=633 PF=0.89
 
