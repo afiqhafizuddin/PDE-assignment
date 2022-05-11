@@ -1,15 +1,14 @@
 Clear
-
 // 132/33 NETWORK
-New Object=Circuit.132_33_11_PULMAN BasekV=132 pu=1.0 Angle=0 phases=3 bus1=PMU_PULMAN_132KV BaseFreq=50
+New Object=Circuit.132_33_PULMAN BasekV=132 pu=1.0 Angle=0 phases=3 bus1=PMU_PULMAN_132KV BaseFreq=50 ISC3=28350
 Redirect tx_132_33.dss
 
 // 132/11 NETWORK
-// New Object=Circuit.132_11_PULMAN BasekV=132 pu=1.0 Angle=0 phases=3 bus1=PMU_PULMAN_132KV BaseFreq=50
+// New Object=Circuit.132_11_PULMAN BasekV=132 pu=1.0 Angle=0 phases=3 bus1=PMU_PULMAN_132KV BaseFreq=50 ISC3=22500
 Redirect tx_132_11.dss
 
 // 33/11 NETWORK
-// New Object=Circuit.33_11_PULMAN BasekV=33 pu=1.0 Angle=0 phases=3 bus1=PPU_PULMAN_33KV_A BaseFreq=50 
+// New Object=Circuit.33_11_PULMAN BasekV=33 pu=1.0 Angle=0 phases=3 bus1=PPU_PULMAN_33KV_A BaseFreq=50 ISC3=22500
 Redirect tx_33_11.dss
 
 
@@ -26,7 +25,7 @@ Redirect solar_pv.dss
 
 Set Voltagebases=[132 33.3]
 Set Voltagebases=[132 11.3]
-Set Voltagebases=[33 11.3]
+Set Voltagebases=[33 11.3] 
 
 
 Set DefaultBaseFrequency=50

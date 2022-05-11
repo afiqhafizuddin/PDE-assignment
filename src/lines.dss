@@ -11,14 +11,14 @@ New Linecode.11KVXLPE150 nphases=3 R1=0.26 X1=0.16 R0=0.30 X0= 0.04 units=km
 // 132/33kV Network
 // TX 1 [1:4]
 New Object=Line.LINE1 bus1=PMU_PULMAN_33KV_A bus2=LT_PMU_33KV Linecode=33KVXLPE120 Length=0.05 Units=km
-New Object=Line.LINE3 bus1=PMU_PULMAN_33KV_A bus2=PPU_11KV_A Linecode=33KVXLPE185 Length=25 Units=km
-New Object=Line.LINE5 bus1=PMU_PULMAN_33KV_A bus2=MAIN_HOSPITAL Linecode=33KVXLPE120 Length=17 Units=km
+New Object=Line.LINE3 bus1=PMU_PULMAN_33KV_A bus2=PPU_PULMAN_33KV Linecode=33KVXLPE185 Length=15 Units=km
+New Object=Line.LINE5 bus1=PMU_PULMAN_33KV_A bus2=MAIN_HOSPITAL Linecode=33KVXLPE120 Length=5 Units=km
 New Object=Line.LINE7 bus1=PMU_PULMAN_33KV_A bus2=PCC_PV_PMU33KV Linecode=33KVXLPE185 Length=2 Units=km
 
 // TX 2 [5:6]
 New Object=Line.LINE2 bus1=PMU_PULMAN_33KV_B bus2=TOURIST Linecode=33KVXLPE185 Length=15 Units=km
-New Object=Line.LINE6 bus1=PMU_PULMAN_33KV_B bus2=PPU_PULMAN_33KV_B Linecode=33KVXLPE120 Length=30 Units=km
-New Object=Line.LINE4 bus1=PMU_PULMAN_33KV_B bus2=MALLS Linecode=33KVXLPE120 Length=20 Units=km
+New Object=Line.LINE6 bus1=PMU_PULMAN_33KV_B bus2=PPU_PULMAN_33KV Linecode=33KVXLPE120 Length=10 Units=km
+New Object=Line.LINE4 bus1=PMU_PULMAN_33KV_B bus2=MALLS Linecode=33KVXLPE120 Length=10 Units=km
 
 
 // 132/11kV Network
@@ -57,9 +57,9 @@ New Object=Line.LINE26 bus1=JLNKSH bus2=JLNPRMNT Linecode=11KVXLPE150 Length=1 U
 New Object=Line.LINE27 bus1=JLNPRMNT bus2=DWNJY Linecode=11KVXLPE240 Length=1 Units=km
 
 // CB38
-New Object=Line.LINE28 bus1=PMU_PULMAN_11KV_B bus2=PPU2_PULMAN_11KV_B Linecode=11KVXLPE150 Length=15 Units=km
+// New Object=Line.LINE28 bus1=PMU_PULMAN_11KV_B bus2=PPU_11KV_A Linecode=11KVXLPE150 Length=15 Units=km
 
-// 33/11kV Network
+// // 33/11kV Network
 // CB31
 New Object=Line.LINE29 bus1=PPU_11KV_A bus2=LT_PPU11KV Linecode=11KVXLPE85 Length=0.05  Units=km
 

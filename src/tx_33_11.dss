@@ -1,2 +1,8 @@
-New Transformer.TX1_33KV_1 Buses=[PMU_PULMAN_33KV_A, PPU_11KV_A] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
-New Transformer.TX2_33KV_1 Buses=[PMU_PULMAN_33KV_B, PPU_11KV_B] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
+New Transformer.TX1_33KV_1 Buses=[PPU_PULMAN_33KV, PPU_11KV_A] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
+New Transformer.TX2_33KV_1 Buses=[PPU_PULMAN_33KV, PPU_11KV_B] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
+
+// New Transformer.TX1_33KV_1 Buses=[PMU_PULMAN_33KV, PPU_11KV_A] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
+// New Transformer.TX2_33KV_1 Buses=[PMU_PULMAN_33KV, PPU_11KV_B] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
+
+// New Transformer.TX1_33KV_1 Buses=[PMU_PULMAN_33KV_A, PPU_11KV] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11
+// New Transformer.TX2_33KV_1 Buses=[PMU_PULMAN_33KV_B, PPU_11KV] Conns=[Delta Wye] kVs=[33 11.3] kVAs=[30000 30000] XHL=11

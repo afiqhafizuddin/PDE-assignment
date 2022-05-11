@@ -4,7 +4,6 @@ New Load.LOAD1 bus1=LT_PMU_33KV phases=3 kV=33 kW=51 kvar=25 PF=0.89
 New Load.LOAD2 bus1=TOURIST phases=3 kV=33 kW=1373 kvar=686 PF=0.89
 New Load.LOAD3 bus1=MALLS phases=3 kV=33 kW=1373 kvar=686 PF=0.89
 New Load.LOAD4 bus1=MAIN_HOSPITAL phases=3 kV=33 kW=1890 kvar=1481 PF=0.89
-New Load.LOAD5 bus1=PCC_PV_PMU33KV phases=3 kV=33 kW=580 kvar=290 PF=0.89
 
 // 132/11 Network
 
@@ -42,7 +41,6 @@ New Load.LOAD23 bus1=JLNPRMNT phases=3 kV=11 kW=116 kvar=58 PF=0.89
 New Load.LOAD24 bus1=DWNJY phases=3 kV=11 kW=472 kvar=236 PF=0.89
 
 // 08
-New Load.LOAD25 bus1=PCC_PV_PPU11KV phases=3 kV=11 kW=580 kvar=290 PF=0.89
 
 // 33/11 Network
 // 01
