@@ -1,0 +1,22 @@
+Clear 
+New Object=Circuit.132_33_PULMAN BasekV=132 pu=1.0 Angle=0 phases=3 bus1=PMU_PULMAN_132KV BaseFreq=50 ISC3=28350
+
+Redirect tx_132_33.dss
+Redirect tx_132_11.dss
+Redirect tx_33_11.dss
+Redirect lines.dss
+
+Redirect peak_load.dss
+Redirect solar_pv.dss
+
+Set Voltagebases=[132 33.33]
+Set Voltagebases=[132 11.33]
+Set Voltagebases=[33 11.3]
+Set DefaultBaseFrequency=50
+
+set maxiterations=1000
+Solve
+Calcvoltagebases
+solve mode=faultstudy
+show Faults
+export Faultstudy
