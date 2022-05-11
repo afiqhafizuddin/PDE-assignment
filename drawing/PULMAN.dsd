@@ -1,0 +1,64 @@
+[DWF6Version]
+Ver=1
+[DWF6MinorVersion]
+MinorVer=1
+[DWF6Sheet:PULMAN-Model]
+DWG=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\PULMAN.dwg
+Layout=Model
+Setup=
+OriginalSheetPath=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\PULMAN.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:PULMAN-Layout1]
+DWG=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\PULMAN.dwg
+Layout=Layout1
+Setup=
+OriginalSheetPath=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\PULMAN.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:PULMAN-Layout2]
+DWG=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\PULMAN.dwg
+Layout=Layout2
+Setup=
+OriginalSheetPath=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\PULMAN.dwg
+Has Plot Port=0
+Has3DDWF=0
+[Target]
+Type=6
+DWF=C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\drawing\PULMAN.pdf
+OUT=C:\Users\Afiq Hafizuddin\Documents\
+PWD=
+[MRU Sheet List]
+MRU=0
+[PdfOptions]
+IncludeHyperlinks=TRUE
+CreateBookmarks=TRUE
+CaptureFontsInDrawing=TRUE
+ConvertTextToGeometry=FALSE
+VectorResolution=1200
+RasterResolution=400
+[AutoCAD Block Data]
+IncludeBlockInfo=0
+BlockTmplFilePath=
+[SheetSet Properties]
+IsSheetSet=FALSE
+IsHomogeneous=FALSE
+SheetSet Name=
+NoOfCopies=1
+PlotStampOn=FALSE
+ViewFile=FALSE
+JobID=0
+SelectionSetName=
+AcadProfile=<<Unnamed Profile>>
+CategoryName=
+LogFilePath=
+IncludeLayer=TRUE
+LineMerge=FALSE
+CurrentPrecision=
+PromptForDwfName=TRUE
+PwdProtectPublishedDWF=FALSE
+PromptForPwd=FALSE
+RepublishingMarkups=FALSE
+PublishSheetSetMetadata=FALSE
+PublishSheetMetadata=FALSE
+3DDWFOptions=0 1
