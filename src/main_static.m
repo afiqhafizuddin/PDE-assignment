@@ -13,7 +13,7 @@ DSSText.command = 'Compile (C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2
 DSSText.command = 'Show voltage elem';
 DSSText.command = 'Export voltage';
 DSSText.command = 'Export seqvoltages';
-% DSSText.command = 'Show Losses';
+DSSText.command = 'Show Losses';
 % DSSText.command = 'Show current elem';
 % DSSText.command = 'Export seqcurrents';
 

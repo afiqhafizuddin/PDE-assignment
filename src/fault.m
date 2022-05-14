@@ -9,7 +9,7 @@ Start = DSSObj.Start(0);
 DSSText = DSSObj.Text;
 DSSCircuit=DSSObj.ActiveCircuit;
 DSSSolution=DSSCircuit.Solution;
-DSSText.command='Compile (C:\Users\Afiq Hafizuddin\Documents\MATLAB\01-STATIC-DUMA-AMEND\fault-master.dss)';
+DSSText.command='Compile (C:\Users\Afiq Hafizuddin\Documents\tahun-akhir\sem-2\EPPB4143 Power Distribution Eng. Section 01\assignment-PDE\src\fault_master.dss)';
 
 DSSText.command = 'Solve';
 DSSText.command ='solve mode=faultstudy';
