@@ -11,3 +11,7 @@ PDE COURSE WORK GROUPING.pdf
 modules/
 *.Txt
 *.CSV
+*.bak
+*.dwg
+*.dsd
+drawing/
