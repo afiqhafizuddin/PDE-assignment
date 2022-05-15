@@ -6,8 +6,20 @@ Redirect tx_132_11.dss
 Redirect tx_33_11.dss
 Redirect lines.dss
 
-Redirect peak_load.dss
-Redirect solar_pv.dss
+// no load no PV 
+Redirect no_load.dss
+
+// // peak load no pv
+// Redirect peak_load.dss
+
+// // peak load 350kW pv
+// Redirect peak_load.dss
+// Redirect solar_pv_350kW.dss
+
+// // peak load 500kW pv
+// Redirect peak_load.dss
+// Redirect solar_pv_500kW.dss
+
 
 Set Voltagebases=[132 33.33]
 Set Voltagebases=[132 11.33]
