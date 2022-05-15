@@ -16,10 +16,10 @@ Redirect tx_33_11.dss
 
 Redirect lines.dss
 
-// Redirect no_load.dss
-Redirect peak_load.dss
+Redirect no_load.dss
+// Redirect peak_load.dss
 
-Redirect solar_pv.dss
+// Redirect solar_pv.dss
 
 // SIMULATION
 
@@ -34,5 +34,3 @@ Set mode=snapshot
 Set maxiterations=200
 calcVoltagebases
 solve
-
-
